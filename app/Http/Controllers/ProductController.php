@@ -219,7 +219,11 @@ public function search(Request $request)
     $products = $this->getProducts();
 
     $searchedProducts = array_filter($products, function ($product) use ($query) {
-        return str_contains(strtolower($product['name']), strtolower($query));
+        $nameMatch = str_contains(strtolower($product['name']), strtolower($query));
+        $categoryMatch = str_contains(strtolower($product['category']), strtolower($query));
+        $priceMatch = str_contains(strtolower($product['price']), strtolower($query));
+
+        return $nameMatch || $categoryMatch || $priceMatch;
     });
 
     $errorMessage = null;
@@ -229,6 +233,7 @@ public function search(Request $request)
 
     return view('products.search', compact('searchedProducts', 'errorMessage'));
 }
+
 
 
 
