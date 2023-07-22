@@ -1,7 +1,7 @@
 @extends('layouts.welcome')
 
 @section('content')
-    <div class="container">
+    <div class="container" style="min-height:1200px;">
         <h1>Search Results</h1>
         <div class="row">
             @if (empty($searchedProducts))

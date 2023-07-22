@@ -1,7 +1,6 @@
 @extends('layouts.welcome')
 
 @section('content')
-    <div class="container">
-        <h1>Welcome to the Admin Panel!</h1>
+    <div class="container" style="min-height:1200px;">
     </div>
 @endsection
