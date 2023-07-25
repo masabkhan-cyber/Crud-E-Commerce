@@ -77,6 +77,8 @@
          <!-- Include the footer section -->
         <footer class="bg-dark text-white text-center py-3">
         @yield('footer')
+        <p>{{ config('website-settings.phone_number') }}.</p>
+        <p>{{ config('website-settings.email') }}.</p>
         <p>&copy; {{ date('Y') }} {{ config('website-settings.website_name') }}. All rights reserved.</p>
         </footer>
         </div>
