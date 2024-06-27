@@ -1,12 +1,15 @@
 import './bootstrap';
-
-// resources/js/app.js
 import $ from 'jquery';
 window.$ = window.jQuery = $;
 
-// Other imports and custom JavaScript code
+import 'datatables.net';
+import 'datatables.net-bs4';
 
-// Initialize DataTables
-$(document).ready(function () {
+$(function() {
     $('#product-table').DataTable();
 });
+
+
+require('jquery');
+require('datatables.net');
+require('datatables.net-bs4');

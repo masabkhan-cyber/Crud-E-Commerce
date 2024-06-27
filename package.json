@@ -9,12 +9,13 @@
         "@popperjs/core": "^2.11.6",
         "axios": "^1.1.2",
         "bootstrap": "^5.2.3",
-        "datatables.net-bs4": "^1.13.5",
+        "datatables.net-bs4": "^1.13.11",
         "laravel-vite-plugin": "^0.7.5",
         "sass": "^1.56.1",
         "vite": "^4.5.3"
     },
     "dependencies": {
-        "jquery": "^3.7.0"
+        "datatables.net": "^2.0.8",
+        "jquery": "^3.7.1"
     }
 }
