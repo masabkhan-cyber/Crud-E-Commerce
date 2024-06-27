@@ -10,7 +10,7 @@
             @foreach($paginatedProducts as $product)
                 <div class="col-md-3">
                     <div class="card mb-3" style="padding:15px;">
-                        <img src="{{ asset('storage/' . $product['image']) }}" class="card-img-top mx-auto" alt="Product Image" style="width: 200px; height: 200px; object-fit: cover;">
+                        <img src="{{ asset('storage/' . $product['image']) }}" class="card-img-top mx-auto" alt="Product Image" style="width: 100%; height: 50%; object-fit: cover;">
                         <div class="card-body">
                             <h5 class="card-title">{{ $product['name'] }}</h5>
                             <p class="card-text description">{{ $product['description'] }}</p>
