@@ -235,6 +235,25 @@ public function search(Request $request)
 }
 
 
+public function showAllProducts()
+{
+    // Assuming getProducts fetches all products from the JSON file
+    $products = collect($this->getProducts());
+
+    // Paginate the collection of products
+    $perPage = 8; // Number of products per page
+    $currentPage = request()->input('page', 1);
+    $paginatedProducts = $products->slice(($currentPage - 1) * $perPage, $perPage)->values();
+    $paginatedProducts = new \Illuminate\Pagination\LengthAwarePaginator($paginatedProducts, $products->count(), $perPage, $currentPage, [
+        'path' => request()->url(),
+        'query' => request()->query(),
+    ]);
+
+    return view('products.allProducts', compact('paginatedProducts'));
+}
+
+
+
 
 
 }

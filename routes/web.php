@@ -65,3 +65,7 @@ Route::post('/settings/update', [SettingsController::class, 'update'])->name('se
 Route::post('/settings/logo', [SettingsController::class, 'updateLogo'])->name('settings.update.logo');
 
 
+// This Route is For All Products with pagination
+Route::get('/all-products', [ProductController::class, 'showAllProducts'])->name('all.products');
+
+
