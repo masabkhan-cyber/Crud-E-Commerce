@@ -1,3 +1,15 @@
+A Basic Crud App For Demonstration
+Intergrated with: 
+Admin LTE
+Bootstrap
+DataTables
+
+
+
+
+
+
+
 Installation Method
 
 
