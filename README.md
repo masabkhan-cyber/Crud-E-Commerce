@@ -1,7 +1,7 @@
 A Basic Crud App For Demonstration
 Intergrated with: 
-Admin LTE
-Bootstrap
+Admin LTE,
+Bootstrap,
 DataTables
 
 
