@@ -43,7 +43,7 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/') }}">Shop</a>
+          <a class="nav-link" href="{{ url('/all-products') }}">Shop</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="javascript:void(0)">Contact</a>
