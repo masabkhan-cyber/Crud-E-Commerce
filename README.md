@@ -6,6 +6,11 @@ DataTables
 
 
 
+prerequisite 
+
+1) Install Xampp
+2) Install Composer
+3) Install Nodejs
 
 
 
