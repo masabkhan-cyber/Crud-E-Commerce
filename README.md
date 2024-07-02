@@ -15,7 +15,7 @@ Installation Method
 
 
 
-git clone https://github.com/your-repo/your-laravel-app.git
+git clone https://github.com/your-repo/your-laravel-app.git](https://github.com/masabkhan-cyber/Dashboard.git
 
 
 cd your-laravel-app
