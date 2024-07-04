@@ -17,7 +17,8 @@ prerequisite
 
 Installation Method
 
-
+1) Go to Your Database Admin in Xampp And Create Database Called "laravel"
+2) Run The Following Commands Below 
 
 
 git clone https://github.com/masabkhan-cyber/Crud-E-Commerce.git
