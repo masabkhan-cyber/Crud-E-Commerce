@@ -4,7 +4,7 @@ Admin LTE,
 Bootstrap,
 DataTables
 
-
+#####################################################################
 
 prerequisite 
 
@@ -13,7 +13,7 @@ prerequisite
 3) Install Nodejs
 
 
-
+#####################################################################
 
 Installation Method
 
@@ -42,6 +42,10 @@ php artisan serve
 
 
 
+
+###################################################################
+
+
 Usage Instructions:
 
 Products Show on Main Page already added some of them.
@@ -50,6 +54,9 @@ For dashboard Go to http://127.0.0.1:8000/login
 1) Create Account
 2) Login
 3) Add New Products Or Delete, Update
+
+
+
 
 
 *Notes:
